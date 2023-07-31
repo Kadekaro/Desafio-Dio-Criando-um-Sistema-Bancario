@@ -7,17 +7,17 @@ months_dict = {
     '7': 'July', '8': 'August', '9': 'September', '10': 'October', '11': 'November', '12': 'December'
 }
 
-for i, j in enumerate(months_dict):
+for i, j in enumerate(months_dict):   Pode-se usar esse método usando o enumerate, ou o de baixo usando somente o if ^^
     if j == month:
         print(months_dict[j])
 
+Ou
 
 if month in months_dict.keys():
     print(months_dict[month])
 """
 
-"""Desafio 3/3:"""
-
+# Desafio 3/3:
 
 def encaixa(A, B):
     if len(A) < len(B):
