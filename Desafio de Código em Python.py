@@ -11,11 +11,11 @@ for i, j in enumerate(months_dict):   Pode-se usar esse método usando o enumera
     if j == month:
         print(months_dict[j])
 
-Ou
 
 if month in months_dict.keys():
     print(months_dict[month])
 """
+
 
 # Desafio 3/3:
 
